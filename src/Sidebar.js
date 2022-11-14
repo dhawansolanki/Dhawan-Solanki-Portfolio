@@ -20,12 +20,12 @@ const Sidebar=()=>{
 <div class="full-page-green"></div>
 <div class="ham-menu">
   <ul class="centre-text bold-text">
-    <li>Home</li>
-    <li>About</li>
-    <li>Services</li>
-    <li>Experience</li>
-    <li>Timeline</li>
-    <li>Contact</li>
+    <li><a href="#">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#service">Services</a></li>
+    <li><a href="#timeline">Timeline</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#contact">Contact</a></li>
 
   </ul>
 </div>

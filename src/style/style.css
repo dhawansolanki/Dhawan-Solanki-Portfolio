@@ -370,12 +370,12 @@ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 
     padding-top: .5rem;
 }
 
-.experience .box-container{
+.timeline .box-container{
     display: flex;
     flex-wrap: wrap;
 }
 
-.experience .box-container .box{
+.timeline .box-container .box{
     position: relative;
     flex:1 1 33rem;
     border-left: .2rem solid var(--main-color);
@@ -384,7 +384,7 @@ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 
     padding-bottom: 2rem;    
 }
 
-.experience .box-container .box::before{
+.timeline .box-container .box::before{
     content: '';
     position: absolute;
     top:0; left:-1rem;
@@ -394,14 +394,14 @@ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 
     background:var(--main-color);
 }
 
-.experience .box-container .box .content{
+.timeline .box-container .box .content{
     background:#fff;
     padding:1.5rem;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     border-radius: .5rem;
 }
 
-.experience .box-container .box .content span{
+.timeline .box-container .box .content span{
     color:#fff;
     font-size: 1.7rem;
     background:var(--main-color);
@@ -409,13 +409,13 @@ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 
     padding:.4rem 1rem;
 }
 
-.experience .box-container .box .content h3{
+.timeline .box-container .box .content h3{
     font-size: 2.5rem;
     padding:.5rem 0;
     color:#111;
 }
 
-.experience .box-container .box .content p{
+.timeline .box-container .box .content p{
     font-size: 1.5rem;
     color:#666;
 }
@@ -656,7 +656,7 @@ background: linear-gradient(to left, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Fi
         width:100%;
     }
 
-    .experience .box-container .box{
+    .timeline .box-container .box{
         padding-right: 0;
     }
 
